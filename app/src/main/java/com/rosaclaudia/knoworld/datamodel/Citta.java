@@ -7,15 +7,17 @@ public class Citta implements Serializable {
 
     private String nome;
     private int image;
+    private String descrizione;
 
 
 
     public Citta() {
     }
 
-    public Citta(String nome, int image) {
+    public Citta(String nome, int image, String descrizione) {
         this.nome = nome;
         this.image = image;
+        this.descrizione= descrizione;
     }
 
     public String getNome() {
@@ -32,5 +34,13 @@ public class Citta implements Serializable {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
     }
 }

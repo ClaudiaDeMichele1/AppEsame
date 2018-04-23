@@ -52,11 +52,11 @@ public class DataSource {
 
     private void popolaDataSource(){
 
-        elencoCitta.put("Roma", new Citta("Roma",  R.drawable.roma));
-        elencoCitta.put("Firenze", new Citta("Firenze", R.drawable.firenze));
-        elencoCitta.put("Napoli", new Citta("Napoli",  R.drawable.napoli));
-        elencoCitta.put("Rimini", new Citta("Rimini",  R.drawable.rimini));
-        elencoCitta.put("Ravenna", new Citta("Ravenna",R.drawable.ravenna));
+        elencoCitta.put("Roma", new Citta("Roma",  R.drawable.roma, "Capitale d'Italia"));
+        elencoCitta.put("Firenze", new Citta("Firenze", R.drawable.firenze, "Capoluogo della Toscana"));
+        elencoCitta.put("Napoli", new Citta("Napoli",  R.drawable.napoli, "Capoluogo della Campania"));
+        elencoCitta.put("Rimini", new Citta("Rimini",  R.drawable.rimini, "Città dell'Emilia-Romagna"));
+        elencoCitta.put("Ravenna", new Citta("Ravenna",R.drawable.ravenna, "Città dell'Emilia-Romagna"));
 
     }
 

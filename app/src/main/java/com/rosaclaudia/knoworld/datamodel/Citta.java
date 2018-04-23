@@ -1,6 +1,9 @@
 package com.rosaclaudia.knoworld.datamodel;
 
-public class Citta {
+
+import java.io.Serializable;
+
+public class Citta implements Serializable {
 
     private String nome;
     private int image;

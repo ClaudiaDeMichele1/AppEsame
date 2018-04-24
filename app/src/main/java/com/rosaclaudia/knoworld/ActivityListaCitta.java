@@ -25,7 +25,7 @@ public class ActivityListaCitta extends AppCompatActivity {
         setContentView(R.layout.activity_lista_citta);
         vListaCitta = findViewById(R.id.listaCitta);
         dataSource = DataSource.getInstance();
-        adapter = new CittaAdapter(this,dataSource.getElencoCitta("R"));
+        adapter = new CittaAdapter(this,dataSource.getElencoCitta());
         vListaCitta.setAdapter(adapter);
         vListaCitta.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
